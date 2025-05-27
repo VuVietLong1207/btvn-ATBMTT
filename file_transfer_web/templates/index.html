@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload File</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="card shadow-lg p-4">
+            <h2 class="mb-4">🚀 Ứng dụng Upload File</h2>
+            <form method="POST" action="/upload" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <input class="form-control" type="file" name="file" required>
+                </div>
+                <button class="btn btn-primary">Tải lên</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
